@@ -38,7 +38,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Erick Sandhu, a recently-graduated software engineer based in Texas.
+            Hi, I&apos;m Erick Sandhu, a recently-graduated software engineer based in Texas.
           </p>
 
           <a
