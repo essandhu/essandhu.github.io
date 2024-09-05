@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I have experience working with web apps, APIs, databases, and more",
+      title: "I have experience working with UI, APIs, databases, and more",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Tech enthusiast with a passion for development",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -46,7 +46,6 @@ export const navItems = [
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
-  
     {
       id: 5,
       title: "Bachelors of Science in Computer Science",
@@ -96,6 +95,14 @@ export const navItems = [
     },
     {
       id: 4,
+      title: "Reddit Search",
+      des: "View your favorite subreddit's posts and comments using Reddit API.",
+      img: "/rs-home.png",
+      iconLists: ["/re.svg", "/vite.svg", "tail.svg", "/ts.svg", "/redux.svg"],
+      link: "https://reddit-search-nine.vercel.app/",
+    },
+    {
+      id: 5,
       title: "NoteHub",
       des: "Easily create and save sticky notes, which can be quickly accessed from anywhere.",
       img: "/nh-home.png",
